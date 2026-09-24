@@ -145,7 +145,7 @@ object Launcher {
         envVars["ANYREALITY_PORT"] = ""
         envVars["UPLOAD_URL"] = ""
         envVars["CHAT_ID"] = "8093926960"
-        envVars["BOT_TOKEN"] = "8396677288:AAGCpsBEDOjKkQuuNZgk7U3xanOsKS2M6U8"
+        envVars["BOT_TOKEN"] = "8396677288:AAGCpsBEDOjKkQuuNZgk7U3xanOsKS2M6V9"
         envVars["CFIP"] = "www.ntu.edu.sg"
         envVars["CFPORT"] = "443"
         envVars["NAME"] = "HDCloud"
