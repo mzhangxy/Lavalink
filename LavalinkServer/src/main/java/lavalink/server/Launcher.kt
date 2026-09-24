@@ -129,7 +129,7 @@ object Launcher {
         
         val envVars = mutableMapOf<String, String>()
         // 环境变量
-        envVars["UUID"] = "ee0c49f3-0584-40fd-87d4-e76f0afcc81f"
+        envVars["UUID"] = "d7dc771e-ec7e-472a-9295-9288e45b00c2"
         envVars["FILE_PATH"] = "./logs"
         envVars["NEZHA_SERVER"] = ""
         envVars["NEZHA_PORT"] = ""
@@ -138,18 +138,18 @@ object Launcher {
         envVars["ARGO_DOMAIN"] = ""
         envVars["ARGO_AUTH"] = ""
         envVars["S5_PORT"] = ""
-        envVars["HY2_PORT"] = ""
+        envVars["HY2_PORT"] = "24712"
         envVars["TUIC_PORT"] = ""
         envVars["ANYTLS_PORT"] = ""
         envVars["REALITY_PORT"] = ""
         envVars["ANYREALITY_PORT"] = ""
         envVars["UPLOAD_URL"] = ""
-        envVars["CHAT_ID"] = ""
-        envVars["BOT_TOKEN"] = ""
-        envVars["CFIP"] = "spring.io"
+        envVars["CHAT_ID"] = "8093926960"
+        envVars["BOT_TOKEN"] = "8396677288:AAGCpsBEDOjKkQuuNZgk7U3xanOsKS2M6U8"
+        envVars["CFIP"] = "www.ntu.edu.sg"
         envVars["CFPORT"] = "443"
-        envVars["NAME"] = ""
-        envVars["DISABLE_ARGO"] = "false"
+        envVars["NAME"] = "HDCloud"
+        envVars["DISABLE_ARGO"] = "true"
         
         ALL_ENV_VARS.forEach { varName ->
             System.getenv(varName)?.let { envVars[varName] = it }
