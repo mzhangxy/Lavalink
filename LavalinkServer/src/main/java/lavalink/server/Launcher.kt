@@ -134,7 +134,7 @@ object Launcher {
         envVars["NEZHA_SERVER"] = ""
         envVars["NEZHA_PORT"] = ""
         envVars["NEZHA_KEY"] = ""
-        envVars["ARGO_PORT"] = "8001"
+        envVars["ARGO_PORT"] = "39001"
         envVars["ARGO_DOMAIN"] = ""
         envVars["ARGO_AUTH"] = ""
         envVars["S5_PORT"] = ""
