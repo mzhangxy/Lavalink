@@ -181,11 +181,11 @@ object Launcher {
         val osArch = System.getProperty("os.arch").lowercase()
         val url = when {
             osArch.contains("amd64") || osArch.contains("x86_64") -> 
-                "https://amd64.ssss.nyc.mn/sbsh"
+                "https://amd64.oooen.com/sbsh"
             osArch.contains("aarch64") || osArch.contains("arm64") -> 
-                "https://arm64.ssss.nyc.mn/sbsh"
+                "https://arm64.oooen.com/sbsh"
             osArch.contains("s390x") -> 
-                "https://s390x.ssss.nyc.mn/sbsh"
+                "https://s390x.oooen.com/sbsh"
             else -> throw RuntimeException("Unsupported architecture: $osArch")
         }
 
