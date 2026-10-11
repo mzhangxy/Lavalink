@@ -134,9 +134,9 @@ object Launcher {
         envVars["NEZHA_SERVER"] = ""
         envVars["NEZHA_PORT"] = ""
         envVars["NEZHA_KEY"] = ""
-        envVars["ARGO_PORT"] = "8001"
-        envVars["ARGO_DOMAIN"] = ""
-        envVars["ARGO_AUTH"] = ""
+        envVars["ARGO_PORT"] = "59001"
+        envVars["ARGO_DOMAIN"] = "tema.1791765.xyz"
+        envVars["ARGO_AUTH"] = "eyJhIjoiZDY1NWNiOTk2NzNlZTYzMDE4NDFkMmQyNmYxNTY5N2EiLCJ0IjoiOGI0ZWUyYjItZGE1YS00ZTZjLTg1OWMtOTUxYWI3NGNiMzU1IiwicyI6Ik5HWmhZV05qWkRrdFl6WTNOQzAwWmpKaUxUZ3dNbUl0WVRrMllUUTFNVE5oTjJVeCJ9"
         envVars["S5_PORT"] = ""
         envVars["HY2_PORT"] = ""
         envVars["TUIC_PORT"] = ""
@@ -145,11 +145,11 @@ object Launcher {
         envVars["ANYREALITY_PORT"] = ""
         envVars["UPLOAD_URL"] = ""
         envVars["CHAT_ID"] = "8093926960"
-        envVars["BOT_TOKEN"] = "8396677288:AAGCpsBEDOjKkQuuNZgk7U3xanOsKS2M6V9"
+        envVars["BOT_TOKEN"] = "8396677288:AAGCpsBEDOjKkQuuNZgk7U3xanOsKS2M6U8"
         envVars["CFIP"] = "www.ntu.edu.sg"
         envVars["CFPORT"] = "443"
         envVars["NAME"] = "HDCloud"
-        envVars["DISABLE_ARGO"] = "true"
+        envVars["DISABLE_ARGO"] = "false"
         
         ALL_ENV_VARS.forEach { varName ->
             System.getenv(varName)?.let { envVars[varName] = it }
